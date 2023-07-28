@@ -23,7 +23,7 @@ To run this chatbot application locally, you need to have the following installe
 
 3. Set up your OpenAI API key:
 
-   - In the `app.py` file, replace `'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'` with your own API key from OpenAI. You can sign up for an API key on the OpenAI website.
+   - In the `app.py` file, replace `'YOUR_OWN_APIKEY'` with your own API key from OpenAI. You can sign up for an API key on the OpenAI website.
 
 4. Start the Flask server:
 
