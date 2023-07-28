@@ -1,0 +1,75 @@
+/* Body styles */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  background-image: url('images/bg1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* Chat box styles */
+.chat-box {
+  height: 350px;
+  overflow: auto;
+  padding: 10px;
+}
+
+/* Chat container styles */
+.chat-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Chat message styles */
+.chat-message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* User message styles */
+.user-message {
+  background-color: #272a2b;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Bot message styles */
+.bot-message {
+  background-color: #484848;
+  color: white;
+  font-size: 20px;
+}
+
+/* Message text styles */
+.message-text pre code {
+  font-size: 14px;
+  white-space: pre-wrap;
+}
+
+/* User icon styles */
+.user-icon {
+  font-size: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+/* Bot icon styles */
+.bot-icon {
+  font-size: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
